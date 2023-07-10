@@ -1,0 +1,77 @@
+h1 {
+    position: fixed;
+    top: 0;
+    left: 0px;
+    width: 100%;
+    margin-top: 0;
+    background: white;
+    padding: 0.7rem 0.5rem;
+    margin-bottom: 0.2rem;
+    border-bottom: 1px solid #a4a4a4;
+    font-family: 'Hina Mincho', serif;
+}
+
+section{
+    width:10px;
+}
+
+h2{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+
+article{
+    width: 1000px;
+    padding: 10px;
+    margin: 0 250px;
+    margin-top: 50px;
+    border: 1px solid #a4a4a4;
+    border-radius:7px;
+}
+
+article:hover{
+    border: 1px solid #4237be;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+a:visited h3{
+    color: #4237be;
+}
+
+article:hover h3{
+    text-decoration: underline;
+}
+
+.error{
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+div.searchbox, div.detail{
+    text-align: center;
+}
+
+input.distbox, button{
+    font-size: 1em;
+    line-height: 1.2;
+    padding: 0.5em var(--padding-x);
+    border-width: 2px;
+    border-style: solid;
+}
+
+input.distbox{
+    --padding-x: 0.5em;
+}
+
+button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    --padding-x: 1.2em;
+    border-color: transparent;
+}

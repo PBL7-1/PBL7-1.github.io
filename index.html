@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <title>とらべるーと</title>
+    <link href="CSS/styles.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <script src="javascript/dosearch.js"></script>
+    <h1 class="title">とらべるーと</h1>
+
+    <br><br><br><br>
+    <form onsubmit="doSearch(); return false;" class="top">
+        <div class="searchbox">
+            <label for="dist">行先：</label>
+            <input type="search" id="dist" class="distbox" autofocus>
+            <button type="submit">検索</button>
+        </div>
+        <br>
+        <div class="detail">
+            <span style="display: inline-block; text-align: left;">
+                <input type="radio" id="day" name="isStay" value="day" autofocus>
+                <label for="day">日帰り</label>
+                <input type="radio" id="stay" name="isStay" value="stay">
+                <label for="stay">1泊以上</label><br>
+                <input type="radio" name="peopleNum" id="1" value="1" autofocus>
+                <label for="1">1人</label>
+                <input type="radio" name="peopleNum" id="2-3" value="2-3">
+                <label for="2-3">2～3人</label>
+                <input type="radio" name="peopleNum" id="4-5" value="4-5">
+                <label for="4-5">4～5人</label>
+                <input type="radio" name="peopleNum" id="over6" value="over6">
+                <label for="over6">6人以上</label><br>
+                <label for="start">出発：</label>
+                <input type="date" name="start" id="start"><br>
+                <input type="checkbox" name="use" id="shinkansen" value="shinkansen" checked>
+                <label for="shinkansen">新幹線</label><br>
+                <input type="checkbox" name="use" id="airplane" value="airplane" checked>
+                <label for="airplane">飛行機</label><br>
+                <input type="checkbox" name="use" id="ship" value="ship" checked>
+                <label for="ship">フェリー</label><br>
+                <input type="checkbox" name="use" id="bus" value="bus" checked>
+                <label for="bus">高速バス</label><br>   
+            </span>
+        </div>
+    </form>
+    <!-- 宮城・仙台・松島以外はごめんなさいページ -->
+
+</body>
+
+</html>
