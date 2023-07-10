@@ -4,30 +4,70 @@
         <meta charset="utf-8">
         <!--サイトのタイトル-->
         <title>検索結果|とらべるーと</title>
-        <link href="CSS/styles.css" rel="stylesheet">
+        <link href="styles/styles.css" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Hina+Mincho&display=swap" rel="stylesheet">
     </head>
 
     <body>
         <h1>とらべるーと</h1>
+        <form onsubmit="doSearch()" class="top">
+            <div class="searchbox">
+                <label for="dist">行先：</label>
+                <input type="search" id="dist" class="distbox" autofocus>
+                <button type="submit">検索</button>
+            </div>
+            <br>
+            <div class="detail">
+                <span style="display: inline-block; text-align: left;">
+                    <input type="radio" id="day" name="isStay" value="day">
+                    <label for="day">日帰り</label>
+                    <input type="radio" id="stay" name="isStay" value="stay">
+                    <label for="stay">1泊以上</label><br>
+                    <input type="radio" name="peopleNum" id="1" value="1">
+                    <label for="1">1人</label>
+                    <input type="radio" name="peopleNum" id="2-3" value="2-3">
+                    <label for="2-3">2～3人</label>
+                    <input type="radio" name="peopleNum" id="4-5" value="4-5">
+                    <label for="4-5">4～5人</label>
+                    <input type="radio" name="peopleNum" id="over6" value="over6">
+                    <label for="over6">6人以上</label><br>
+                    <label for="start">出発：</label>
+                    <input type="date" name="start" id="start"><br>
+                    <input type="checkbox" name="use" id="shinkansen" value="shinkansen" checked>
+                    <label for="shinkansen">新幹線</label><br>
+                    <input type="checkbox" name="use" id="airplane" value="airplane" checked>
+                    <label for="airplane">飛行機</label><br>
+                    <input type="checkbox" name="use" id="ship" value="ship" checked>
+                    <label for="ship">フェリー</label><br>
+                    <input type="checkbox" name="use" id="bus" value="bus" checked>
+                    <label for="bus">高速バス</label><br>   
+                </span>
+            </div>
+        </form>
         <h2>検索結果:3件</h2>
         <section>
-            <a href="https://www.mozilla.org/ja/">
+            <a href="route1.htm" target="_blank">
                 <article>
-                    <h3>test route1</h3>
-                    <p>詳細</p>
+                    <h3>仙台・松島をめぐる１泊２日王道プラン</h3>
+                    <b>日本三景の松島を存分に堪能し仙台の観光も楽しみたい方へ</b>
+                    <p>エリア：宮城県 仙台市、松島町　期間：１泊２日 総交通費(片道)：4,280～21,590円</p>
+                    <p>宿泊先　料金目安：ー</p>
                 </article>
             </a>
-            <a href="https://www.mozilla.org/ja/">
+            <a href="route2.html" target="_blank">
                 <article>
-                    <h3>test route2</h3>
-                    <p>詳細</p>
+                    <h3>絶景の松島・仙台を巡る</h3>
+                    <b>日本三景の松島を存分に堪能し仙台の観光も楽しみたい方へ</b>
+                    <p>エリア：宮城県仙台市、松島町　期間：１泊２日 総交通費(片道)：3860～21770円</p>
+                    <p>宿泊先　料金目安：12870円～66000円</p>
                 </article>
             </a>
-            <a href="https://www.mozilla.org/ja/">
+            <a href="route3.html" target="_blank">
                 <article>
-                    <h3>test route3</h3>
-                    <p>詳細</p>
+                    <h3>仙台松島絶景＆グルメ王道プラン</h3>
+                    <p>仙台・松島の絶景とグルメを存分に堪能したい方へ</p>
+                    <p>エリア：宮城県仙台市、松島町　期間：１泊２日 総交通費(片道)：3940～22700円</p>
+                    <p>宿泊先　料金目安：22150円～</p>
                 </article>
             </a>
         </section>
