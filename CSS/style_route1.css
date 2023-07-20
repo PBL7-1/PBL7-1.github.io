@@ -1,0 +1,197 @@
+/* 全体のスタイル */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* タイトル */
+  h1 {
+    font-size: 24px;
+
+  }
+  
+  /* リンク */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* ヘッダー */
+  #top {
+    background-color: #f2f2f2;
+    padding: 10px;
+  }
+  
+  /* コース名 */
+  .course_name {
+    margin-bottom: 10px;
+  }
+  
+  /* コース名内の数字 */
+  .course_name .num {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 10px;
+  }
+
+  .blk .num {
+        padding: 0.5em 1em;
+        margin: 2em 0;
+        color: #5d627b;
+        background: white;
+        border-top: solid 5px #5d627b;
+        box-shadow: 0 3px 5px rgba(0, 0, 0, 0.22);
+    }
+    .blk .num {
+    
+        margin: 0; 
+        padding: 0;
+  }
+
+
+  /* コース名内のテキスト */
+  .course_name p {
+    display: inline-block;
+    margin: 0;
+  }
+  
+  #gazou{
+    width: 70%;    
+    height: auto;  
+  }
+  
+  
+  /* コース詳細 */
+  .blk {
+    margin-bottom: 20px;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  /* コース詳細のタイトル */
+  .blk h2 {
+    margin-top: 0;
+    font-size: 32px;
+  }
+  
+  /* コース詳細の説明文 */
+  .blk p {
+    margin-top: 0;
+  }
+
+  .blk h4 {
+    font-size: 18px;
+  }
+
+
+  table{
+    width: 100%;
+    border-collapse:separate;
+    border-spacing: 0;
+  }
+  
+  table th:first-child{
+    border-radius: 5px 0 0 0;
+  }
+  
+  table th:last-child{
+    border-radius: 0 5px 0 0;
+    border-right: 1px solid #3c6690;
+  }
+  
+  table th{
+    text-align: center;
+    color:white;
+    background: linear-gradient(#829ebc,#225588);
+    border-left: 1px solid #3c6690;
+    border-top: 1px solid #3c6690;
+    border-bottom: 1px solid #3c6690;
+    box-shadow: 0px 1px 1px rgba(255,255,255,0.3) inset;
+    width: 25%;
+    padding: 10px 0;
+  }
+  
+  table td{
+    text-align: center;
+    border-left: 1px solid #a8b7c5;
+    border-bottom: 1px solid #a8b7c5;
+    border-top: 1px solid #a8b7c5;
+    box-shadow: 0px -3px 5px 1px #eee inset;
+    width: 25%;
+    padding: 10px 0;
+  }
+  
+  table td:last-child{
+    border-right: 1px solid #a8b7c5;
+  }
+  
+  table tr:last-child td:first-child {
+    border-radius: 0 0 0 5px;
+  }
+  
+  table tr:last-child td:last-child {
+    border-radius: 0 0 5px 0;
+  }
+    
+    #midashi {
+        color: #364e96;/*文字色*/
+            border: solid 3px #364e96;/*線色*/
+            padding: 0.5em;/*文字周りの余白*/
+            border-radius: 0.5em;
+    }
+
+     h2{
+        padding: 0.4em 0.5em;/*文字の上下 左右の余白*/
+        color: #494949;/*文字色*/
+        background: #f4f4f4;/*背景色*/
+        border-left: solid 5px #7db4e6;/*左線*/
+        border-bottom: solid 3px #d7d7d7;/*下線*/
+      }
+      
+      #day {
+        font-size: 38px;
+      }
+
+    
+      #maru p{
+        height:50px;
+        width:50px;
+        border-radius:50%;
+        line-height:50px;
+        text-align:center;
+       }
+
+       h1 {
+        font-family: 'Hina Mincho', serif;
+    }
+
+    .under {
+      border-bottom :double 5px #87cefa;
+      font-size: 24px;  
+    }
+
+    b {
+      font-weight: bold;
+      color: indianred;
+    }
+
+    .time{
+      border: solid 2px #454545;
+      padding: 3px;
+      font-size: 15px;
+    }
+    
+    strong{
+      font-size: 30px;
+    }
+    
+    .side{
+      display: flex;
+    }
